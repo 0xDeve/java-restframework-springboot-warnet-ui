@@ -1,4 +1,4 @@
-# Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
+# Spring Boot, MySQL, JPA, Hibernate Rest API Web Application
 
 This web application is for registering player through a system called WarNet and also to create your clan.
 
@@ -43,8 +43,4 @@ The app will start running at <http://localhost:8080>.
 
 You can use the UI to create,delete,update playerdata as well as the clan information
 
-## Learn more
-
-You can find the tutorial for this application on my blog -
-
-<https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
+In this example, I run the application with Netbeans.
