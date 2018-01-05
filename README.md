@@ -1,6 +1,6 @@
 # Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
 
-Build Restful CRUD API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+This web application is for registering player through a system called WarNet and also to create your clan.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ git@github.com:callicoder/spring-boot-mysql-rest-api-tutorial.git
 
 **2. Create Mysql database**
 ```bash
-create database notes_app
+create database player_data
 ```
 
 **3. Change mysql username and password as per your installation**
@@ -31,12 +31,7 @@ create database notes_app
 
 **2. Build and run the app using maven**
 
-```bash
-mvn package
-java -jar target/easy-notes-1.0.0.jar
-```
-
-Alternatively, you can run the app without packaging it using -
+You can run the app without packaging it using -
 
 ```bash
 mvn spring-boot:run
@@ -44,21 +39,9 @@ mvn spring-boot:run
 
 The app will start running at <http://localhost:8080>.
 
-## Explore Rest APIs
+## Explore web application
 
-The app defines following CRUD APIs.
-
-    GET /api/notes
-    
-    POST /api/notes
-    
-    GET /api/notes/{noteId}
-    
-    PUT /api/notes/{noteId}
-    
-    DELETE /api/notes/{noteId}
-
-You can test them using postman or any other rest client.
+You can use the UI to create,delete,update playerdata as well as the clan information
 
 ## Learn more
 
