@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>WarNet</title>
+  <title>WarNet Database</title>
   <link rel="stylesheet" href="css/style.css">
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -23,12 +23,10 @@
       Email: <input type="text" name="email" value=${email}>
       Game ID: <input type="text" name="gameid" value=${gameid}>
       </div>
-      <p class="terms">
-      </p>
       <p class="submit"><input type="submit" value="Update"></p>
       </form>
-      <a href="/playerdata/${id}/deleted"><button>Delete</button></a>
-      <a href="/clan"><button>Manage clan</button></a>
+      <p class="submit"><a href="/playerdata/${id}/deleted"><input type="submit" value="Delete"></a></p>
+      <p class="submit"><a href="/clan"><input type="submit" value="Manage clan"></a></p>
     </section>
   </div>
 </body>

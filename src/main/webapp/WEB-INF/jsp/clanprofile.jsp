@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>WarNet</title>
+  <title>WarNet Database</title>
   <link rel="stylesheet" href="css/style.css">
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -22,15 +22,9 @@
       Minimum rank: <input type="text" name="minrank" value="${minrank}">
       Maximum members: <input type="number" name="maxmem" value="${maxmem}">
       </div>
-      <p class="terms">
-        <label>
-          <input type="checkbox" name="remember_me" id="remember_me">
-           I am not a robot
-        </label>
-      </p>
       <p class="submit"><input type="submit" value="Update"></p>
       </form>
-      <a href="/clan/${id}/deleted"><button>Delete</button></a>
+      <p class="submit"><a href="/clan/${id}/deleted"><input type="submit" value="Delete"></a></p>
     </section>
   </div>
 </body>

@@ -33,7 +33,7 @@ public class ClanController {
         String longString = "";
         List<Clan> clanlist = clanRepository.findAll();
         for (Clan aclan : clanlist){
-            longString += "<a href='/clan/" + aclan.getID() + "'>" + aclan.ToString() + "</a>" + "<br>";
+            longString += "<a href='/clan/" + aclan.getID() + "' style='text-decoration:none'>" + aclan.ToString() + "</a>" + "<br><hr width='300' align='left'>";
         }
         model.put("data", longString);
         return "clanindex";

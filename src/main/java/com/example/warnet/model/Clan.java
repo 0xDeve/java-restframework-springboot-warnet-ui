@@ -61,6 +61,6 @@ public class Clan {
     }
     
     public String ToString(){
-        return "Clan name: " + clanName + ", minimum rank: " + minRank + ", maximum players: " + maxPlayers;
+        return "Clan name: " + clanName + ". Minimum rank: " + minRank + ". Maximum players: " + maxPlayers;
     }
 }

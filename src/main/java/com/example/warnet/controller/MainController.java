@@ -28,7 +28,7 @@ public class MainController {
         String longString = "";
         List<PlayerData> dataList = playerDataRepository.findAll();
         for (PlayerData data: dataList){
-            longString += "<a href='/playerdata/" + data.getID() + "'>" + data.ToString() + "</a>" + "<br>";
+            longString += "<a href='/playerdata/" + data.getID() + "'>" + data.ToString() + "</a>" + "<br><hr width='300' align='left'>";
         }
         model.put("data", longString);
         return "index";

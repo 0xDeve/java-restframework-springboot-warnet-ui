@@ -73,6 +73,6 @@ public class PlayerData {
     }
     
     public String ToString(){
-        return "Username: " + user + ", password:" + password + ", email: " + email + ", gameID: " + gameid;   
+        return "Username: " + user + ". Password:" + password + ". Email: " + email + ". GameID: " + gameid;   
     }
 }
