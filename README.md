@@ -29,6 +29,8 @@ create database player_data
 
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
 
++ change the url to your desired database
+
 **2. Build and run the app using maven**
 
 You can run the app without packaging it using -
